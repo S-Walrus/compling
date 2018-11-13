@@ -2,7 +2,7 @@
 
 School projects
 
-## Table of Contents
+## Projects
 
 + [HW6](https://github.com/S-Walrus/HW6)
 
