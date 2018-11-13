@@ -4,7 +4,7 @@ School projects
 
 ## Projects
 
-+ [HW6](https://github.com/S-Walrus/HW6)
++ [HW6](https://github.com/S-Walrus/compling/tree/master/HW6)
 
 **bold text**
 
