@@ -14,6 +14,9 @@ stop_words = nltk.corpus.stopwords.words('russian')
 
 cleared = [token for token in token_list if token not in stop_words]
 
+print('Удалено ' + str(len(token_list) - len(cleared)) + ' слов, ' +
+      str((len(token_list) - len(cleared)) / len(token_list) * 100) + '%')
+
 with open('out2.txt', 'w') as f:
     f.write('\n'.join(cleared))
 
