@@ -10,7 +10,7 @@ filter_stopwords = True
 
 
 with open('stopwords-ru.txt') as f:
-    stopwords = set(f.readlines())
+    stopwords = set([x.strip() for x in f])
 path_list = ['./data/' + f for f in listdir('./data/')
              if isfile('./data/' + f)]
 s = ''
